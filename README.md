@@ -22,78 +22,79 @@ This section provides a brief history of Instagram as a social platform and outl
 **2. Detailed Product Dissection**
 This part covers key challenges faced by users and how Instagram has solved them through its features:
 
-Real-time content sharing
+* Real-time content sharing
 
-Limited discoverability in older social platforms
+* Limited discoverability in older social platforms
 
-Lack of visual-first experiences
+* Lack of visual-first experiences
 
-Difficulty in managing social circles and privacy
+* Difficulty in managing social circles and privacy
 
-Limited tools for creators and influencers to monetize content
+* Limited tools for creators and influencers to monetize content
 
-Lack of cross-platform social integration
+* Lack of cross-platform social integration
 
 **3. Top Features**
 Highlights of Instagram’s core features:
 
-User profiles
+* User profiles
 
-Posts (photos, videos)
+* Posts (photos, videos)
 
-Stories & Reels
+* Stories & Reels
 
-Likes, Comments, and Shares
+* Likes, Comments, and Shares
 
-Followers and Following systems
+* Followers and Following systems
 
-Direct Messaging
+* Direct Messaging
 
-Saved content and tagged users
+* Saved content and tagged users
 
 **4. Schema Description**
 This section presents a high-level schema design based on Instagram’s top features. The major entities identified include:
 
-User
+* User
 
-Post
+* Post
 
-Comment
+* Comment
 
-Like
+* Like
 
-Follower
+* Follower
 
-Story
+* Story
 
-Message
+* Message
 
-TaggedUser
+* TaggedUser
 
 This section also explains the relationships between these entities, such as:
 
-Users can create many posts.
+* Users can create many posts.
 
-Posts can have many likes and comments.
+* Posts can have many likes and comments.
 
-Users can follow other users.
+* Users can follow other users.
 
-Users can send direct messages to each other.
+* Users can send direct messages to each other.
 
-Users can tag others in posts and stories.
+* Users can tag others in posts and stories.
 
 **5. Entity Relationship Diagram (ERD)**
+
 This diagram visualizes the relationships and attributes among the entities within the Instagram schema. It showcases how users interact with each feature and how those interactions are stored and related in a relational database.
 
-**6. Conclusion**
+**6. Conclusion** <br>
 This section concludes the Instagram case study with insights into how schema design supports the functionality of complex platforms like Instagram.
 
-**Contributions**
+**Contributions** <br>
 The project was created using publicly available information on the Instagram platform, user interfaces, and functionality as seen on the mobile app and web version. The ERD was created using Lucidchart.
 
-**Challenges**
+**Challenges** <br>
 The main challenge was determining how to model social interactions such as likes, comments, follows, and messages efficiently in a relational schema. Analyzing feature interconnections helped in identifying the appropriate entities and defining their relationships.
 
-**Conclusion**
+## Conclusion
 This case study on Instagram provides an in-depth understanding of how relational database concepts apply to a real-world social media platform. The product dissection helped identify user-facing challenges and how Instagram solves them through well-integrated features. A comprehensive schema and ERD were developed to model these solutions in the context of relational database design.
 
